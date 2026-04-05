@@ -73,15 +73,7 @@ RFID Tag → ESP32 → HTTP Request → Twilio API → WhatsApp Message
 
 ---
 
-### 3. Twilio API Endpoint
-
-Use this URL:
-
-https://api.twilio.com/2010-04-01/Accounts/YOUR_ACCOUNT_SID/Messages.json
-
----
-
-### 4. ESP32 Code Configuration
+### 3. ESP32 Code Configuration
 
 Update:
 - WiFi SSID & Password  
@@ -91,7 +83,7 @@ Update:
 
 ---
 
-### 5. Example Message Format
+### 4. Example Message Format
 
 Your Smart Trolley Bill:
 Milk Powder - ₹50  
@@ -101,7 +93,7 @@ Total: ₹70
 
 ---
 
-### 6. Run the System
+### 5. Run the System
 
 - Power ESP32  
 - Open Serial Monitor (115200 baud)  
@@ -126,7 +118,8 @@ Message sent to WhatsApp
 
 RFID-Smart-Trolley-ESP32/
 │── code/
-│   └── smart_trolley.ino  
+│   └── smart_trolley.ino
+│   └── google_sheet code
 │── images/
 │   ├── circuit.jpg  
 │   ├── setup.jpg  
@@ -149,4 +142,4 @@ This project demonstrates a smart IoT-based billing system that improves shoppin
 ---
 
 ## Author
-Your Name
+Debashish mishra
